@@ -23,3 +23,6 @@ class Blockchain {
 }
 
 module.exports = Blockchain;
+
+// * Create a function called isValid on our Blockchain that will return true or false if a block is valid or invalid respectively
+// * isValid should check the integrity of every block in its chain by looking at each block's previousHash field and making sure that it is equal to the hash of the block before it.
